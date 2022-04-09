@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <center>
+        <h1>Employee Intrests Survey form</h1>
+        <form action="mailto:nikunjgoel3002@gmail.com" method="post" enctype="text/plain">
+           <label>
+               Enter your name:
+           </label> 
+           <input type="text" name="YourName">
+           <br>
+           <br>
+           <label>
+               Enter your department:
+           </label>
+           <input type="text" name="deptname">
+           <br>
+           <br>
+           <label>
+               Tell us a little bit about yourself:
+           </label>
+           <textarea name="yourmessage" rows="4" cols="30 ">
+
+           </textarea>
+           <br>
+           <br>
+           <label>
+               Do you exercise at home?
+           </label>           
+           <input type="radio" name="exercise" value="yes">yes
+           <input type="radio" name="exercise" value="no">no
+           <br>
+           <br>
+           <label>
+               How do you like to read about your favourite topics?
+           </label>
+           <br>
+           <br>
+           <input type="checkbox" name="books">Books
+           <input type="checkbox" name="online">Online Resources
+           <input type="checkbox" name="phoneapp">Phone apps
+           <input type="checkbox" name="magzines">Magzines
+           <br>
+           <br>
+           <label for="movies"> 
+               What genre of movies do you like?
+           </label>
+           <select name="movies">
+               <option value="comedy">
+                   comedy
+               </option>
+               <option value="romantic">
+                   romantic
+               </option>
+               <option value="thriller">
+                   thriller
+               </option>
+               <option value="scifi">
+                   Sci-Fi
+               </option>
+           </select>
+           <br>
+           <br>
+           <input type="submit" value="Submit Form">
+
+
+        </form>
+
+    </center>
+</body>
+</html>
